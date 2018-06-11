@@ -15,6 +15,7 @@
 		E679FA9120CE2A5A00306EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E679FA9020CE2A5A00306EA8 /* main.m */; };
 		E679FA9B20CE2A5B00306EA8 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E679FA9A20CE2A5B00306EA8 /* TestTests.m */; };
 		E679FAA620CE2A5B00306EA8 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E679FAA520CE2A5B00306EA8 /* TestUITests.m */; };
+		E679FAB520CE2CB600306EA8 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = E679FAB420CE2CB600306EA8 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E679FAA120CE2A5B00306EA8 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E679FAA520CE2A5B00306EA8 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		E679FAA720CE2A5B00306EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E679FAB320CE2CB600306EA8 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		E679FAB420CE2CB600306EA8 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E679FA8220CE2A5A00306EA8 /* AppDelegate.m */,
 				E679FA8420CE2A5A00306EA8 /* ViewController.h */,
 				E679FA8520CE2A5A00306EA8 /* ViewController.m */,
+				E679FAB320CE2CB600306EA8 /* Dog.h */,
+				E679FAB420CE2CB600306EA8 /* Dog.m */,
 				E679FA8720CE2A5A00306EA8 /* Main.storyboard */,
 				E679FA8A20CE2A5A00306EA8 /* Assets.xcassets */,
 				E679FA8C20CE2A5A00306EA8 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				E679FA8620CE2A5A00306EA8 /* ViewController.m in Sources */,
 				E679FA9120CE2A5A00306EA8 /* main.m in Sources */,
+				E679FAB520CE2CB600306EA8 /* Dog.m in Sources */,
 				E679FA8320CE2A5A00306EA8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
